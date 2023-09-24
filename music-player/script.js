@@ -44,6 +44,41 @@ const songs = [
         displayName: 'Nainowale Ne',
         artist: 'Neetu Mohan',
     },
+    {
+        name: 'chaleya',
+        displayName: 'Chaleya',
+        artist: 'Arjit Sing, Shilpa Rao',
+    },
+    {
+        name: 'chaliyatasan',
+        displayName: 'Chaliya Chaliya',
+        artist: 'Sunidhi Chauhan',
+    },
+    {
+        name: 'gulimata',
+        displayName: 'Guli Mata',
+        artist: 'Shreya Ghoshal',
+    },
+    {
+        name: 'kudmayi',
+        displayName: 'Kudmayi',
+        artist: 'Shahid Mallya',
+    },
+    {
+        name: 'kyalogetum',
+        displayName: 'Kya Loge Tum',
+        artist: 'B Praak',
+    },
+    {
+        name: 'meregharram',
+        displayName: 'Mere Ghar Ram ',
+        artist: 'Jubin Nautial',
+    },
+    {
+        name: 'ramsiya',
+        displayName: 'Ram Siya Ram',
+        artist: 'Sachet Tandon, Parampara Tandon',
+    },
 ];
 
 
