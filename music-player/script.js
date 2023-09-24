@@ -39,6 +39,11 @@ const songs = [
         displayName: 'Front Row (Remix)',
         artist: 'Metric/Jacinto Design',
     },
+    {
+        name: 'NainowaleNe',
+        displayName: 'Nainowale Ne',
+        artist: 'Neetu Mohan',
+    },
 ];
 
 
