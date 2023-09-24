@@ -80,6 +80,26 @@ const songs = [
         displayName: 'Ram Siya Ram',
         artist: 'Sachet Tandon, Parampara Tandon',
     },
+    {
+        name: 'jiyare',
+        displayName: 'Jiya Re',
+        artist: 'Neeti Mohan',
+    },
+    {
+        name: 'mohmohkedhage',
+        displayName: 'Moh Moh ke Dhage',
+        artist: 'Monali Thakur',
+    },
+    {
+        name: 'patakhaguddi',
+        displayName: 'Patakha Guddi',
+        artist: 'Sultan Nooran, Jyoti Nooran',
+    },
+    {
+        name: 'uditereaankhoinse',
+        displayName: 'Udi',
+        artist: 'Shail Hada, Sunidhi Chauhan',
+    },
 ];
 
 
