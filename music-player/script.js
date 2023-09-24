@@ -43,7 +43,7 @@ const songs = [
     {
         name: 'NainowaleNe',
         displayName: 'Nainowale Ne',
-        artist: 'Neetu Mohan',
+        artist: 'Neeti Mohan',
     },
     {
         name: 'chaleya',
