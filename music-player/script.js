@@ -98,6 +98,31 @@ const songs = [
         displayName: 'Udi',
         artist: 'Shail Hada, Sunidhi Chauhan',
     },
+        {
+        name: 'chaltereishqmein',
+        displayName: 'Chal Tere Ishq Mein',
+        artist: 'Bhagirath Bhatt',
+    },
+    {
+        name: 'zihaalemiskin',
+        displayName: 'Zihaal E Miskin',
+        artist: 'Vishal Mishra, Shreya Ghoshal',
+    },
+    {
+        name: 'zindagimein',
+        displayName: 'Zindagi Mein',
+        artist: 'Mujtaba Aziz Naza, Saloni Thakkar, Anis Ali Sabri',
+    },
+    {
+        name: 'hoshwalonkokhabarkya',
+        displayName: 'Hosh Walo Ko Khabar Kya',
+        artist: 'Jagjit Singh',
+    },
+    {
+        name: 'jiyetojiyekaise',
+        displayName: 'Jiye To Jiye Kaise',
+        artist: 'S P Balasubrahmanyam',
+    },
 ];
 
 
