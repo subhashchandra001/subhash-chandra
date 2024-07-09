@@ -1,1 +1,108 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Web Features</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .feature-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .feature-card a {
+            display: block;
+            padding: 20px;
+            background-color: green;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .feature-card:hover a {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+        .quote-generator::before {
+            background-image: url('quote.jpg'); /* Replace with actual image URL */
+        }
+        .infinite-scroll::before {
+            background-image: url('infinite_scroll.jpg'); /* Replace with actual image URL */
+        }
+        .animated-navigation::before {
+            background-image: url('animated_navigation.jpg'); /* Replace with actual image URL */
+        }
+        .joke-teller::before {
+            background-image: url('joke_teller.jpg'); /* Replace with actual image URL */
+        }
+        .picture-in-picture::before {
+            background-image: url('picture_in_picture.jpg'); /* Replace with actual image URL */
+        }
+        .music-player::before {
+            background-image: url('music_player.jpg'); /* Replace with actual image URL */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Web Development Projects</h1>
+        <div class="feature-grid">
+            <div class="feature-card quote-generator">
+                <a href="#">Quote Generator</a>
+            </div>
+            <div class="feature-card infinite-scroll">
+                <a href="#">Infinite Scroll</a>
+            </div>
+            <div class="feature-card animated-navigation">
+                <a href="#">Animated Navigation</a>
+            </div>
+            <div class="feature-card joke-teller">
+                <a href="#">Joke Teller</a>
+            </div>
+            <div class="feature-card picture-in-picture">
+                <a href="#">Picture in Picture</a>
+            </div>
+            <div class="feature-card music-player">
+                <a href="#">Music Player</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
